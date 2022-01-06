@@ -84,36 +84,6 @@ fn main(){
     }
 
 
-/*
 
-    let a=String::from("1");
-    let mut b=String::new();
-    stdin().read_line(&mut b).unwrap();
     let b=&b[..(b.len()-1)];    標準入力から値を受け取った場合、最後に打つenterも考慮しなければならない。文字列の最後の文字を含まないようにする文。
-    println!("{}",&a);
-    print_typename(&a);
-    println!("{}",&b);
-    print_typename(&b);
-
-    
-    if(&a==&b){
-        println!("aa");
-    }
-
-*/
-    
-
-
-
-    //modules::show_posts::show_posts();
-    //modules::publish_post::publish_post();
-    //modules::delete_post::delete_post(&a);
-    //modules::write_post::write_post();
-
-
-}
-
-fn print_typename<T>(_:T){
-    println!("{}",std::any::type_name::<T>());
-}
 
